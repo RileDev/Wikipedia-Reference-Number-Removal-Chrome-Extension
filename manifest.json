@@ -1,0 +1,17 @@
+{
+    "name" : "Wikipedia Reference Removal",
+    "description" : "Developed by: RileDev - Eliminiši reference, tj. [1][2][3]... sa vikipedije :D",
+    "version" : "1.0",
+    "manifest_version" : 3,
+    "icons" : {
+        "16" : "/icons/javascript-16.png",
+        "48" : "/icons/javascript-48.png",
+        "128" : "/icons/javascript-128.png"
+    },
+    "content_scripts" : [
+        {
+            "matches" : ["https://*.wikipedia.org/*"],
+            "js" : ["main.js"]
+        }
+    ]
+}
