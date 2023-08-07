@@ -2,7 +2,7 @@
 
 Remove references (ex. [1][2]...) from Wikipedia page.
 
-##How to install the extenstion.
+## How to install the extenstion.
 
 1. Download zip file.
 2. Extract zip file into a empty folder.
